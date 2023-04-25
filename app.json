@@ -1,0 +1,47 @@
+{
+  "author": "IoT Open",
+  "licence": "MIT",
+  "input": {
+	  "status_function": {
+		  "name": "Status function",
+		  "type": "single_function_selector",
+		  "required": true
+	  },
+	  "addresses": {
+		  "name": "List of ip addresses or hostnames to ping (comma separated)",
+		  "type": "text",
+		  "required": true
+	  },
+	  "interval": {
+		  "name": "Interval between pings (in seconds)",
+		  "type": "number",
+		  "required": true
+	  }
+  },
+  "guide": [
+    {
+      "id": "stage_1",
+      "title": "What to ping",
+      "description": "Select the IP-addresses that you want to ping",
+      "input_fields": [
+		  "addresses"
+      ]
+    },
+    {
+      "id": "stage_2",
+      "title": "Where to report",
+      "description": "Select or create the status function",
+      "input_fields": [
+		  "status_function"
+      ]
+    },
+    {
+      "id": "stage_3",
+      "title": "How often",
+      "description": "Specify the interval between pings",
+      "input_fields": [
+		  "interval"
+      ]
+    }
+  ]
+}

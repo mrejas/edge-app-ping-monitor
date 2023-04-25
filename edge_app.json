@@ -1,0 +1,15 @@
+ {
+      "category" : "monitoring",
+      "description" : "Simple ping monitoring",
+      "name" : "Edge monitoring",
+      "public" : true,
+      "publisher" : {
+         "id" : 1
+      },
+      "short_description" : "Simple ping montitoring",
+      "source_url" : "https://git.iotopen.se/rejas/edge-apps/edge-app-ping-monitor",
+      "tags" : [
+		  "monitoring"
+      ]
+   }
+
